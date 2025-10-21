@@ -46,7 +46,7 @@ export default function ReportsScreen() {
         <head>
           <style>
             body { font-family: Arial, sans-serif; padding: 20px; }
-            h1 { color: #4285F4; }
+            h1 { color: #f72c7aff; }
             table { width: 100%; border-collapse: collapse; margin-top: 20px; }
             th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
             th { background-color: #4285F4; color: white; }
@@ -224,8 +224,8 @@ export default function ReportsScreen() {
           style={styles.secondaryButton}
           onPress={generatePDF}
         >
-          <Ionicons name="share-social" size={20} color="#4285F4" />
-          <Text style={styles.secondaryButtonText}>Compartir Reporte</Text>
+          <Ionicons name="share-social" size={20} color="#f4f5f8ff" />
+          <Text style={styles.secondaryButtonText}>Compartir </Text>
         </TouchableOpacity>
 
         <View style={styles.bottomSpacer} />
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
   },
   header: {
-    backgroundColor: '#5E35B1',
+    backgroundColor: '#31c433ff',
     padding: 24,
     paddingTop: 16,
   },
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
   summaryValue: {
     fontSize: 26,
     fontWeight: 'bold',
-    color: '#5E35B1',
+    color: '#ea9330ff',
   },
   card: {
     backgroundColor: 'white',
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   secondaryButton: {
-    backgroundColor: '#444444ff',
+    backgroundColor: '#6f74f4ff',
     borderRadius: 12,
     padding: 16,
     flexDirection: 'row',
@@ -394,7 +394,7 @@ const styles = StyleSheet.create({
     borderColor: '#4285F4',
   },
   secondaryButtonText: {
-    color: '#4285F4',
+    color: '#f1f3f7ff',
     fontSize: 16,
     fontWeight: '700',
   },
