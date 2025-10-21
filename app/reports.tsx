@@ -109,7 +109,6 @@ export default function ReportsScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Reporte Mensual</Text>
-        <Text style={styles.headerSubtitle}>Octubre 2025</Text>
       </View>
 
       <ScrollView contentContainerStyle={styles.content}>
@@ -240,7 +239,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
   },
   header: {
-    backgroundColor: '#31c433ff',
+    backgroundColor: '#6a1a20ff',
     padding: 24,
     paddingTop: 16,
   },
