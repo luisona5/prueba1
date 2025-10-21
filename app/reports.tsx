@@ -224,7 +224,7 @@ export default function ReportsScreen() {
           style={styles.secondaryButton}
           onPress={generatePDF}
         >
-          <Ionicons name="share-social" size={20} color="#f4f6f9ff" />
+          <Ionicons name="share-social" size={20} color="#4285F4" />
           <Text style={styles.secondaryButtonText}>Compartir Reporte</Text>
         </TouchableOpacity>
 
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
   },
   header: {
-    backgroundColor: '#a2b135ff',
+    backgroundColor: '#5E35B1',
     padding: 24,
     paddingTop: 16,
   },
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
   summaryValue: {
     fontSize: 26,
     fontWeight: 'bold',
-    color: '#d88841ff',
+    color: '#5E35B1',
   },
   card: {
     backgroundColor: 'white',
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   secondaryButton: {
-    backgroundColor: '#5096e6ff',
+    backgroundColor: '#444444ff',
     borderRadius: 12,
     padding: 16,
     flexDirection: 'row',
@@ -394,7 +394,7 @@ const styles = StyleSheet.create({
     borderColor: '#4285F4',
   },
   secondaryButtonText: {
-    color: '#fcfdfeff',
+    color: '#4285F4',
     fontSize: 16,
     fontWeight: '700',
   },
