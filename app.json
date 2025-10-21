@@ -15,14 +15,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.juankgonzalez.cvcreator",
+      "bundleIdentifier": "com.LuisOna.Pbcreator",
       "infoPlist": {
         "NSCameraUsageDescription": "Esta app necesita acceso a la cámara para tomar tu foto de perfil.",
         "NSPhotoLibraryUsageDescription": "Esta app necesita acceso a tu galería para seleccionar tu foto de perfil."
       }
     },
     "android": {
-      "package": "com.juankgonzalez.cvcreator",
+      "package": "com.LuisOna.Pbcreator",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",
